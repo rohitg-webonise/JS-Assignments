@@ -5,7 +5,7 @@ import SignInPage from "./Details/SignInPage";
 import BookListPage from "./Details/BookListPage";
 import BookDetailPage from "./Details/BookDetailPage";
 import NotFound from "./Components/NotFound";
-import "../src/style.css";
+import "./style.css";
 
 const App = () => {
   const [user, setUser] = useState(null); // or use localStorage to persist login state
